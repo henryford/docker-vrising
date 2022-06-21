@@ -8,7 +8,7 @@ dpkg-reconfigure -f noninteractive tzdata 2>&1
 
 #What is this supposed to do?
 if [ -z "$SERVERNAME" ]; then
-	SERVERNAME="trueosiris-V"
+	SERVERNAME="VRising Dedicated Server - Docker"
 fi
 if [ -z "$WORLDNAME" ]; then
 	WORLDNAME="world1"
